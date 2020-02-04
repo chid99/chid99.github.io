@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+    background-color:lightgray;
+}
+/* the main container */
+
+
+
+
+.name{
+  
+  display: grid;
+  margin-top: 20%;
+  margin-left:25%;
+  position: relative;
+  margin-left:30px;
+  padding: 30px
+
+}
+
+.secondary{
+  display: grid;
+  position: relative;
+  margin-left:30px;
+
+}
+
+.icon-container{
+  width: 60%;
+  /* it's always best to use percentages for icons and websites */
+  display:grid;
+  bottom:0px;
+  left:0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "a b c";
+  border: 2px solid whitesmoke;
+}
+
+/* .circle{
+  background-image: url("/assets/circle.svg");
+  grid-area: a;
+} */
+
+
+/* h3{
+  margin-bottom: 0px;
+}
+
+h5{
+  margin-top: 0px;
+  padding-top: 0px;
+} */
